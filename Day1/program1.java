@@ -1,4 +1,8 @@
+// write a program to calculate sum of first N natural numbers
+
 package Day1;
+
+
 import java.util.Scanner;
 
 public class program1 {
@@ -10,7 +14,7 @@ public class program1 {
 
         System.out.print("Enter a number: ");
         n = scanner.nextInt();
-
+        // Approach
         for(int i=1;i<=n;i++){
             sum = sum + i;
         }
